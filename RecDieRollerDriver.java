@@ -23,7 +23,7 @@ public class RecDieRollerDriver {
 		/*
 		prints mean number of times that our dice rolls a 6 in a picked number of rolls
 		*/
-		System.out.println("In 1000 rolls, we rolled a 2 on average every" + " " + dice.roll2(number) + " " + "rolls");
+		System.out.println("In" + number +  "rolls, we rolled a 2 on average every" + " " + dice.roll2(number) + " " + "rolls");
 		
 		scan.close();
 

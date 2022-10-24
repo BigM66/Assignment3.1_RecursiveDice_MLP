@@ -27,8 +27,11 @@ public class RecDieRoller {
 		int faceValue = (int)(Math.random() * MAX) + 1;
 		if (faceValue !=2) {
 			roll();
+			System.out.println("the value on the dice was:" + faceValue);
 			
 		}
+
+		System.out.println("the value on the dice was:" + faceValue);
 		sum = sum +1;
 		return  sum;
 		
